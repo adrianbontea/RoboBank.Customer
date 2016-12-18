@@ -1,0 +1,13 @@
+﻿{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "AutoMapper": "4.2.1",
+        "MongoDB.Bson": "2.2.4",
+        "MongoDB.Driver": "2.2.4",
+        "MongoDB.Driver.Core": "2.2.4",
+        "Newtonsoft.Json": "6.0.4"
+      }
+    }
+  }
+}
