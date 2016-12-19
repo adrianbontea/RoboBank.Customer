@@ -239,7 +239,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Custom\ElmahGenericExceptionHandlingAttribute.cs" />
+    <Compile Include="Custom\AIGenericExceptionHandlingAttribute.cs" />
     <Compile Include="Custom\ExtensionMethods.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">

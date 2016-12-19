@@ -12,6 +12,7 @@ namespace RoboBank.Customer.ServiceFabric.Service
             HttpConfiguration config = new HttpConfiguration();
             SwaggerConfig.Register(config);
             WebApiConfig.Register(config);
+            ApplicationInsightsConfig.Configure();
             appBuilder.UseWebApi(config);
         }
     }

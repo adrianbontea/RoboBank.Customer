@@ -11,7 +11,7 @@ using RoboBank.Customer.Service.Models;
 
 namespace RoboBank.Customer.Service.Controllers
 {
-    [ElmahGenericExceptionHandling]
+    [AIGenericExceptionHandling]
     public class CustomerController : ApiController
     {
         private readonly CustomerApplicationService _customerApplicationService;

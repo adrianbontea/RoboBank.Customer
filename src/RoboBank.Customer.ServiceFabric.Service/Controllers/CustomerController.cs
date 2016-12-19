@@ -7,9 +7,11 @@ using AutoMapper;
 using RoboBank.Customer.Application;
 using RoboBank.Customer.Application.DTOs;
 using RoboBank.Customer.ServiceFabric.Service.Models;
+using RoboBank.Customer.ServiceFabric.Service.Custom;
 
 namespace RoboBank.Customer.ServiceFabric.Service.Controllers
 {
+    [AIGenericExceptionHandling]
     public class CustomerController : ApiController
     {
         private readonly CustomerApplicationService _customerApplicationService;
